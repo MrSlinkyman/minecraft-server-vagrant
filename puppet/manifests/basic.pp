@@ -17,6 +17,8 @@ class basic::packages{
   package{"tmux": ensure => installed}
   package{"curl": ensure => installed}
   package{"vim":  ensure => installed}
+  package{"git-core":  ensure => installed}
+  package{"screen": ensure => installed}
 }
 
 
